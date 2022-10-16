@@ -47,13 +47,9 @@ int multiplication(int a, int b)
 //	int c;
 //	__asm
 //	{
-//		mov eax, 0
-//		mov ebx, 0
-//		m1:
-//		add eax, a
-//		add ebx, 1
-//		cmp ebx, b
-//		jnz m1
+//		mov eax, a
+//		mov ebx, b
+//		mul ebx
 //		mov c, eax
 //	}
 //	return c;
